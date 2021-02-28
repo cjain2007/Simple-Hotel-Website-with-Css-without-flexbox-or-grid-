@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  background-color: #000;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+p {
+  margin: 10px 0;
+}
+.navbar {
+  color: #fff;
+  overflow: auto;
+}
+.navbar h2 {
+  float: left;
+  padding-top: 10px;
+  text-align: center;
+}
+.navbar ul {
+  list-style: none;
+  float: right;
+}
+.navbar ul li {
+  float: left;
+}
+.navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+.navbar ul li a:hover {
+  border-bottom: 3px solid #fff;
+  color: cadetblue;
+}
+.container {
+  margin: auto;
+  max-width: 1100;
+  overflow: auto;
+  padding: 0 20px;
+}
+/* Showcase*/
+.showcase {
+  background: url("../img/pexels-rachel-claire-4577179.jpg") no-repeat center
+  center/cover;
+  height: 657px;
+}
+.showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+.showcase h1 {
+  font-weight: 900;
+  font-size: 8vh;
+}
+.showcase .btn {
+  color: #fff;
+  text-decoration: none;
+}
+.showcase .btn:hover {
+  color: cadetblue;
+}
+.home-info {
+  height: 710px;
+  background: #000;
+  color: #fff;
+}
+.home-info img {
+  margin-top: 20px;
+  width: 48%;
+  background: url("../img/showcase.jpg") no-repeat;
+  align-items: center;
+  min-height: 100%;
+}
+.about-heading {
+  font-size: 2em;
+  font-weight: 900;
+}
+.home-info .info-content {
+  text-align: center;
+  overflow: hidden;
+  padding: 50px 30px;
+}
+.home-info .btn {
+  font-size: 1.25em;
+  color: snow;
+  text-decoration: none;
+  align-items: center;
+}
+.home-info .btn:hover {
+  color: cadetblue;
+}
+/* Home Info */
+#home-info {
+  height: 400px;
+  color: #fff;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('../img/pexels-kelly-lacy-2869215.jpg') no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+#home-info .button{
+  margin-top: 0;
+  color: #fff;
+  text-decoration: none;
+}
+#home-info .button:hover{
+  color: cadetblue;
+}
+.about-us{
+  background-color: #000;
+  height: 550px;
+  width: 100%;
+  color: #fff;
+}
+.about-us-info{
+  font-size: 1.5em;
+  text-align: center;
+}
+.about-us-info p{
+  font-size: 15px;
+  position: absolute;;
+}
+.about-us-info h1{
+ margin-top: 5px;
+}
+.image-about{
+  margin-top: 10px;
+  width: 45%;
+  align-items: center;
+  min-height: 100%;
+}
+.contact-form{
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+}
+.mail-icon{
+  width: 20%;
+}
+mail-above-text{
+  margin-top: 15px;
+}
+.phone-above-text{
+  margin-top: 30px;
+}
+.phone-icon{
+  width: 20%;
+}
